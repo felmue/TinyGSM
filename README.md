@@ -81,6 +81,7 @@ TinyGSM also pulls data gently from the modem (whenever possible), so it can ope
 - Sequans Monarch LTE Cat M1/NB1 (VZM20Q)
 - Quectel BG96
 - Quectel BG95
+- Quectel BG77
 - Quectel M95
 - Quectel MC60 ***(alpha)***
 
@@ -111,6 +112,7 @@ Watch this repo for new updates! And of course, contributions are welcome ;)
         - Neoway M590 - 2
         - Quectel BG96 - 12
         - Quectel BG95 - 12
+        - Quectel BG77 - 12
         - Quectel M95 - 6
         - Quectel MC60/MC60E - 6
         - Sequans Monarch - 6
@@ -160,7 +162,7 @@ Watch this repo for new updates! And of course, contributions are welcome ;)
 
 **Location**
 - GPS/GNSS
-    - SIM808, SIM7000, SIM7500/7600/7800, BG96, BG95, u-blox
+    - SIM808, SIM7000, SIM7500/7600/7800, BG96, BG95,BG77, u-blox
     - NOTE:  u-blox chips do _NOT_ have embedded GPS - this functionality only works if a secondary GPS is connected to primary cellular chip over I2C
 - GSM location service
     - SIM800, SIM7000, Quectel, u-blox
